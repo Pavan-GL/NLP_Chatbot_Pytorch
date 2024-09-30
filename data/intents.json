@@ -1,0 +1,111 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hello",
+          "Hey",
+          "Good day",
+          "Is anyone there?"
+        ],
+        "responses": [
+          "Hello! How can I assist you today?",
+          "Hi there! What questions do you have about the Big Four?",
+          "Hey! I'm here to help you with information on the Big Four."
+        ]
+      },
+      {
+        "tag": "services",
+        "patterns": [
+          "What services do the Big Four offer?",
+          "Can you list the services provided by Deloitte?",
+          "What does PwC specialize in?",
+          "What services can I expect from EY?",
+          "What services does KPMG provide?",
+           "Tell me about KPMG's services."
+        ],
+        "responses": [
+          "The Big Four firms provide audit, tax, consulting, and advisory services.",
+          "Deloitte offers consulting, audit, tax, and financial advisory services.",
+          "PwC specializes in assurance, tax, and advisory services.",
+          "EY focuses on assurance, tax, transaction, and advisory services.",
+          "KPMG provides audit, tax, and advisory services, along with consulting and risk management."
+        ]
+      },
+      {
+        "tag": "careers",
+        "patterns": [
+          "How can I apply for a job at KPMG?",
+          "What are the career opportunities at Deloitte?",
+          "What is the hiring process like at EY?",
+          "Tell me about internships at PwC.",
+          "What is KPMG's internship program like?"
+        ],
+        "responses": [
+          "You can apply through the careers section of the KPMG website.",
+          "Deloitte offers a range of entry-level and experienced roles; check their careers page for details.",
+          "EY has a structured hiring process; it's best to start with their official website.",
+          "PwC provides internships; visit their site to find current openings.",
+          "KPMG's internship program offers hands-on experience and exposure to various business areas."
+        ]
+      },
+      {
+        "tag": "news",
+        "patterns": [
+          "What's new with Deloitte?",
+          "Tell me about recent news regarding KPMG.",
+          "Any updates on PwC?",
+          "What are the latest developments at EY?"
+        ],
+        "responses": [
+          "Deloitte recently launched a new sustainability initiative.",
+          "KPMG has been recognized for its commitment to corporate responsibility and innovation.",
+          "PwC is expanding its digital services in response to market demands.",
+          "EY has made headlines with its latest acquisitions in tech consulting."
+        ]
+      },
+      {
+        "tag": "locations",
+        "patterns": [
+          "Where are the offices of Deloitte?",
+          "What cities have PwC offices?",
+          "Is there an EY office near me?",
+          "Tell me about KPMG's global presence."
+        ],
+        "responses": [
+          "Deloitte has offices in major cities worldwide; check their website for specific locations.",
+          "PwC has a presence in many countries, with offices in major cities.",
+          "You can find EY offices in various locations globally; visit their site for details.",
+          "KPMG operates in over 146 countries, providing services with local insights."
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke about accountants!",
+          "Do you know any funny accounting jokes?",
+          "Make me laugh!"
+        ],
+        "responses": [
+          "Why did the accountant break up with the calculator? She felt she was just another number!",
+          "How do accountants stay out of debt? They use credit cards!"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "See you later",
+          "Goodbye",
+          "Talk to you later"
+        ],
+        "responses": [
+          "Goodbye! Feel free to reach out if you have more questions!",
+          "See you later! Have a great day!",
+          "Thanks for chatting! Come back anytime."
+        ]
+      }
+    ]
+  }
+  

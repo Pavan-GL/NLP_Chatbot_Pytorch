@@ -1,0 +1,442 @@
+2024-09-30 09:29:42,682 - INFO - NeuralNet initialized with input_size=10, hidden_size=5, num_classes=3
+2024-09-30 09:29:42,683 - INFO - NeuralNet model instance created successfully.
+2024-09-30 09:59:35,250 - INFO - Intents loaded from D:/NLP chatbot/data/intents.json.
+2024-09-30 09:59:35,584 - INFO - NeuralNet initialized with input_size=79, hidden_size=8, num_classes=7
+2024-09-30 09:59:35,718 - INFO - Model loaded from D:/NLP chatbot/data.pth.
+2024-09-30 09:59:49,201 - INFO - TextProcessor initialized.
+2024-09-30 09:59:49,269 - INFO - Tokenized sentence: ['Hi']
+2024-09-30 09:59:49,269 - INFO - Stemmed word: Hi -> hi
+2024-09-30 09:59:49,365 - INFO - Bag of words for sentence: ['Hi'] -> [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0.]
+2024-09-30 09:59:49,808 - INFO - Response: Hello! How can I assist you today? for tag: greeting with probability: 0.9992151260375977
+2024-09-30 10:00:03,820 - INFO - TextProcessor initialized.
+2024-09-30 10:00:03,820 - INFO - Tokenized sentence: ['How', 'can', 'I', 'apply', 'for', 'a', 'job', 'at', 'KPMG', '?']
+2024-09-30 10:00:03,820 - INFO - Stemmed word: How -> how
+2024-09-30 10:00:03,820 - INFO - Stemmed word: can -> can
+2024-09-30 10:00:03,821 - INFO - Stemmed word: I -> i
+2024-09-30 10:00:03,821 - INFO - Stemmed word: apply -> appli
+2024-09-30 10:00:03,821 - INFO - Stemmed word: for -> for
+2024-09-30 10:00:03,821 - INFO - Stemmed word: a -> a
+2024-09-30 10:00:03,821 - INFO - Stemmed word: job -> job
+2024-09-30 10:00:03,821 - INFO - Stemmed word: at -> at
+2024-09-30 10:00:03,821 - INFO - Stemmed word: KPMG -> kpmg
+2024-09-30 10:00:03,821 - INFO - Stemmed word: ? -> ?
+2024-09-30 10:00:03,823 - INFO - Bag of words for sentence: ['How', 'can', 'I', 'apply', 'for', 'a', 'job', 'at', 'KPMG', '?'] -> [0. 1. 0. 0. 0. 0. 0. 1. 0. 1. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 0. 0. 0. 1. 0. 0. 1. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0.]
+2024-09-30 10:00:03,834 - INFO - Response: You can apply through the careers section of the KPMG website. for tag: careers with probability: 0.999954342842102
+2024-09-30 10:00:22,889 - INFO - TextProcessor initialized.
+2024-09-30 10:00:22,890 - INFO - Tokenized sentence: ['Tell', 'me', 'about', 'recent', 'news', 'regarding', 'KPMG']
+2024-09-30 10:00:22,890 - INFO - Stemmed word: Tell -> tell
+2024-09-30 10:00:22,890 - INFO - Stemmed word: me -> me
+2024-09-30 10:00:22,890 - INFO - Stemmed word: about -> about
+2024-09-30 10:00:22,890 - INFO - Stemmed word: recent -> recent
+2024-09-30 10:00:22,890 - INFO - Stemmed word: news -> news
+2024-09-30 10:00:22,890 - INFO - Stemmed word: regarding -> regard
+2024-09-30 10:00:22,890 - INFO - Stemmed word: KPMG -> kpmg
+2024-09-30 10:00:22,891 - INFO - Bag of words for sentence: ['Tell', 'me', 'about', 'recent', 'news', 'regarding', 'KPMG'] -> [0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.
+ 0. 0. 1. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 0. 0. 0. 0. 1. 0.
+ 0. 0. 0. 0. 0. 0. 0.]
+2024-09-30 10:00:22,892 - INFO - Response: Deloitte recently launched a new sustainability initiative. for tag: news with probability: 0.9998430013656616
+2024-09-30 10:00:27,978 - INFO - TextProcessor initialized.
+2024-09-30 10:00:27,978 - INFO - Tokenized sentence: ['Tell', 'me', 'about', 'recent', 'news', 'regarding', 'KPMG']
+2024-09-30 10:00:27,979 - INFO - Stemmed word: Tell -> tell
+2024-09-30 10:00:27,979 - INFO - Stemmed word: me -> me
+2024-09-30 10:00:27,979 - INFO - Stemmed word: about -> about
+2024-09-30 10:00:27,979 - INFO - Stemmed word: recent -> recent
+2024-09-30 10:00:27,979 - INFO - Stemmed word: news -> news
+2024-09-30 10:00:27,979 - INFO - Stemmed word: regarding -> regard
+2024-09-30 10:00:27,979 - INFO - Stemmed word: KPMG -> kpmg
+2024-09-30 10:00:27,979 - INFO - Bag of words for sentence: ['Tell', 'me', 'about', 'recent', 'news', 'regarding', 'KPMG'] -> [0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.
+ 0. 0. 1. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 0. 0. 0. 0. 1. 0.
+ 0. 0. 0. 0. 0. 0. 0.]
+2024-09-30 10:00:27,981 - INFO - Response: KPMG has been recognized for its commitment to corporate responsibility and innovation. for tag: news with probability: 0.9998430013656616
+2024-09-30 10:00:43,585 - INFO - TextProcessor initialized.
+2024-09-30 10:00:43,585 - INFO - Tokenized sentence: ['bye']
+2024-09-30 10:00:43,585 - INFO - Stemmed word: bye -> bye
+2024-09-30 10:00:43,585 - INFO - Bag of words for sentence: ['bye'] -> [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0.]
+2024-09-30 10:00:43,586 - INFO - Response: See you later! Have a great day! for tag: goodbye with probability: 0.9985803365707397
+2024-09-30 10:00:46,579 - INFO - TextProcessor initialized.
+2024-09-30 10:00:46,579 - INFO - Tokenized sentence: ['exit']
+2024-09-30 10:00:46,579 - INFO - Stemmed word: exit -> exit
+2024-09-30 10:00:46,580 - INFO - Bag of words for sentence: ['exit'] -> [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0.]
+2024-09-30 10:00:46,581 - INFO - Response: I do not understand... for tag: goodbye with probability: 0.5672887563705444
+2024-09-30 10:01:10,205 - INFO - Intents loaded from D:/NLP chatbot/data/intents.json.
+2024-09-30 10:01:10,207 - INFO - NeuralNet initialized with input_size=79, hidden_size=8, num_classes=7
+2024-09-30 10:01:10,207 - INFO - Model loaded from D:/NLP chatbot/data.pth.
+2024-09-30 10:01:14,624 - INFO - TextProcessor initialized.
+2024-09-30 10:01:14,688 - INFO - Tokenized sentence: ['Hello']
+2024-09-30 10:01:14,688 - INFO - Stemmed word: Hello -> hello
+2024-09-30 10:01:14,689 - INFO - Bag of words for sentence: ['Hello'] -> [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0.]
+2024-09-30 10:01:14,690 - INFO - Response: Hi there! What questions do you have about the Big Four? for tag: greeting with probability: 0.9991550445556641
+2024-09-30 10:01:18,733 - INFO - TextProcessor initialized.
+2024-09-30 10:01:18,733 - INFO - Tokenized sentence: ['KPMG', 'news']
+2024-09-30 10:01:18,733 - INFO - Stemmed word: KPMG -> kpmg
+2024-09-30 10:01:18,733 - INFO - Stemmed word: news -> news
+2024-09-30 10:01:18,734 - INFO - Bag of words for sentence: ['KPMG', 'news'] -> [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0.]
+2024-09-30 10:01:18,735 - INFO - Response: Deloitte recently launched a new sustainability initiative. for tag: news with probability: 0.879464328289032
+2024-09-30 10:01:24,316 - INFO - TextProcessor initialized.
+2024-09-30 10:01:24,316 - INFO - Tokenized sentence: ['KPMG', 'news']
+2024-09-30 10:01:24,316 - INFO - Stemmed word: KPMG -> kpmg
+2024-09-30 10:01:24,317 - INFO - Stemmed word: news -> news
+2024-09-30 10:01:24,317 - INFO - Bag of words for sentence: ['KPMG', 'news'] -> [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0.]
+2024-09-30 10:01:24,318 - INFO - Response: Deloitte recently launched a new sustainability initiative. for tag: news with probability: 0.879464328289032
+2024-09-30 10:01:44,949 - INFO - TextProcessor initialized.
+2024-09-30 10:01:44,950 - INFO - Tokenized sentence: ['Recent', 'news']
+2024-09-30 10:01:44,950 - INFO - Stemmed word: Recent -> recent
+2024-09-30 10:01:44,950 - INFO - Stemmed word: news -> news
+2024-09-30 10:01:44,951 - INFO - Bag of words for sentence: ['Recent', 'news'] -> [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0.]
+2024-09-30 10:01:44,951 - INFO - Response: I do not understand... for tag: news with probability: 0.7175423502922058
+2024-09-30 10:02:00,635 - INFO - TextProcessor initialized.
+2024-09-30 10:02:00,635 - INFO - Tokenized sentence: ['Tell', 'me', 'about', 'recent', 'news', 'regarding', 'KPMG', '.']
+2024-09-30 10:02:00,635 - INFO - Stemmed word: Tell -> tell
+2024-09-30 10:02:00,635 - INFO - Stemmed word: me -> me
+2024-09-30 10:02:00,635 - INFO - Stemmed word: about -> about
+2024-09-30 10:02:00,635 - INFO - Stemmed word: recent -> recent
+2024-09-30 10:02:00,635 - INFO - Stemmed word: news -> news
+2024-09-30 10:02:00,635 - INFO - Stemmed word: regarding -> regard
+2024-09-30 10:02:00,635 - INFO - Stemmed word: KPMG -> kpmg
+2024-09-30 10:02:00,635 - INFO - Stemmed word: . -> .
+2024-09-30 10:02:00,636 - INFO - Bag of words for sentence: ['Tell', 'me', 'about', 'recent', 'news', 'regarding', 'KPMG', '.'] -> [0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.
+ 0. 0. 1. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 0. 0. 0. 0. 1. 0.
+ 0. 0. 0. 0. 0. 0. 0.]
+2024-09-30 10:02:00,638 - INFO - Response: KPMG has been recognized for its commitment to corporate responsibility and innovation. for tag: news with probability: 0.9998430013656616
+2024-09-30 10:02:17,045 - INFO - TextProcessor initialized.
+2024-09-30 10:02:17,045 - INFO - Tokenized sentence: ['What', 'services', 'does', 'KPMG', 'provide', '?']
+2024-09-30 10:02:17,045 - INFO - Stemmed word: What -> what
+2024-09-30 10:02:17,045 - INFO - Stemmed word: services -> servic
+2024-09-30 10:02:17,045 - INFO - Stemmed word: does -> doe
+2024-09-30 10:02:17,046 - INFO - Stemmed word: KPMG -> kpmg
+2024-09-30 10:02:17,046 - INFO - Stemmed word: provide -> provid
+2024-09-30 10:02:17,046 - INFO - Stemmed word: ? -> ?
+2024-09-30 10:02:17,046 - INFO - Bag of words for sentence: ['What', 'services', 'does', 'KPMG', 'provide', '?'] -> [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 1. 0. 0. 0. 0.
+ 0. 0. 0. 1. 0. 0. 0.]
+2024-09-30 10:02:17,047 - INFO - Response: EY focuses on assurance, tax, transaction, and advisory services. for tag: services with probability: 0.9998132586479187
+2024-09-30 10:02:18,938 - INFO - TextProcessor initialized.
+2024-09-30 10:02:18,938 - INFO - Tokenized sentence: ['What', 'services', 'does', 'KPMG', 'provide', '?']
+2024-09-30 10:02:18,938 - INFO - Stemmed word: What -> what
+2024-09-30 10:02:18,938 - INFO - Stemmed word: services -> servic
+2024-09-30 10:02:18,938 - INFO - Stemmed word: does -> doe
+2024-09-30 10:02:18,939 - INFO - Stemmed word: KPMG -> kpmg
+2024-09-30 10:02:18,939 - INFO - Stemmed word: provide -> provid
+2024-09-30 10:02:18,939 - INFO - Stemmed word: ? -> ?
+2024-09-30 10:02:18,939 - INFO - Bag of words for sentence: ['What', 'services', 'does', 'KPMG', 'provide', '?'] -> [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 1. 0. 0. 0. 0.
+ 0. 0. 0. 1. 0. 0. 0.]
+2024-09-30 10:02:18,939 - INFO - Response: Deloitte offers consulting, audit, tax, and financial advisory services. for tag: services with probability: 0.9998132586479187
+2024-09-30 10:02:20,089 - INFO - TextProcessor initialized.
+2024-09-30 10:02:20,089 - INFO - Tokenized sentence: ['What', 'services', 'does', 'KPMG', 'provide', '?']
+2024-09-30 10:02:20,090 - INFO - Stemmed word: What -> what
+2024-09-30 10:02:20,090 - INFO - Stemmed word: services -> servic
+2024-09-30 10:02:20,090 - INFO - Stemmed word: does -> doe
+2024-09-30 10:02:20,090 - INFO - Stemmed word: KPMG -> kpmg
+2024-09-30 10:02:20,090 - INFO - Stemmed word: provide -> provid
+2024-09-30 10:02:20,090 - INFO - Stemmed word: ? -> ?
+2024-09-30 10:02:20,090 - INFO - Bag of words for sentence: ['What', 'services', 'does', 'KPMG', 'provide', '?'] -> [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 1. 0. 0. 0. 0.
+ 0. 0. 0. 1. 0. 0. 0.]
+2024-09-30 10:02:20,092 - INFO - Response: The Big Four firms provide audit, tax, consulting, and advisory services. for tag: services with probability: 0.9998132586479187
+2024-09-30 10:02:21,511 - INFO - TextProcessor initialized.
+2024-09-30 10:02:21,512 - INFO - Tokenized sentence: ['What', 'services', 'does', 'KPMG', 'provide', '?']
+2024-09-30 10:02:21,512 - INFO - Stemmed word: What -> what
+2024-09-30 10:02:21,512 - INFO - Stemmed word: services -> servic
+2024-09-30 10:02:21,512 - INFO - Stemmed word: does -> doe
+2024-09-30 10:02:21,512 - INFO - Stemmed word: KPMG -> kpmg
+2024-09-30 10:02:21,512 - INFO - Stemmed word: provide -> provid
+2024-09-30 10:02:21,512 - INFO - Stemmed word: ? -> ?
+2024-09-30 10:02:21,513 - INFO - Bag of words for sentence: ['What', 'services', 'does', 'KPMG', 'provide', '?'] -> [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 1. 0. 0. 0. 0.
+ 0. 0. 0. 1. 0. 0. 0.]
+2024-09-30 10:02:21,514 - INFO - Response: KPMG provides audit, tax, and advisory services, along with consulting and risk management. for tag: services with probability: 0.9998132586479187
+2024-09-30 10:02:27,720 - INFO - TextProcessor initialized.
+2024-09-30 10:02:27,720 - INFO - Tokenized sentence: ['cls']
+2024-09-30 10:02:27,720 - INFO - Stemmed word: cls -> cl
+2024-09-30 10:02:27,721 - INFO - Bag of words for sentence: ['cls'] -> [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0.]
+2024-09-30 10:02:27,722 - INFO - Response: I do not understand... for tag: goodbye with probability: 0.5672887563705444
+2024-09-30 10:02:31,115 - INFO - TextProcessor initialized.
+2024-09-30 10:02:31,116 - INFO - Tokenized sentence: ['What', 'services', 'does', 'KPMG', 'provide', '?']
+2024-09-30 10:02:31,116 - INFO - Stemmed word: What -> what
+2024-09-30 10:02:31,116 - INFO - Stemmed word: services -> servic
+2024-09-30 10:02:31,116 - INFO - Stemmed word: does -> doe
+2024-09-30 10:02:31,116 - INFO - Stemmed word: KPMG -> kpmg
+2024-09-30 10:02:31,116 - INFO - Stemmed word: provide -> provid
+2024-09-30 10:02:31,116 - INFO - Stemmed word: ? -> ?
+2024-09-30 10:02:31,117 - INFO - Bag of words for sentence: ['What', 'services', 'does', 'KPMG', 'provide', '?'] -> [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 1. 0. 0. 0. 0.
+ 0. 0. 0. 1. 0. 0. 0.]
+2024-09-30 10:02:31,117 - INFO - Response: The Big Four firms provide audit, tax, consulting, and advisory services. for tag: services with probability: 0.9998132586479187
+2024-09-30 10:02:33,604 - INFO - TextProcessor initialized.
+2024-09-30 10:02:33,604 - INFO - Tokenized sentence: ['What', 'services', 'does', 'KPMG', 'provide', '?']
+2024-09-30 10:02:33,604 - INFO - Stemmed word: What -> what
+2024-09-30 10:02:33,604 - INFO - Stemmed word: services -> servic
+2024-09-30 10:02:33,604 - INFO - Stemmed word: does -> doe
+2024-09-30 10:02:33,604 - INFO - Stemmed word: KPMG -> kpmg
+2024-09-30 10:02:33,604 - INFO - Stemmed word: provide -> provid
+2024-09-30 10:02:33,604 - INFO - Stemmed word: ? -> ?
+2024-09-30 10:02:33,605 - INFO - Bag of words for sentence: ['What', 'services', 'does', 'KPMG', 'provide', '?'] -> [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 1. 0. 0. 0. 0.
+ 0. 0. 0. 1. 0. 0. 0.]
+2024-09-30 10:02:33,606 - INFO - Response: KPMG provides audit, tax, and advisory services, along with consulting and risk management. for tag: services with probability: 0.9998132586479187
+2024-09-30 10:02:35,888 - INFO - TextProcessor initialized.
+2024-09-30 10:02:35,888 - INFO - Tokenized sentence: ['What', 'services', 'does', 'KPMG', 'provide', '?']
+2024-09-30 10:02:35,888 - INFO - Stemmed word: What -> what
+2024-09-30 10:02:35,888 - INFO - Stemmed word: services -> servic
+2024-09-30 10:02:35,889 - INFO - Stemmed word: does -> doe
+2024-09-30 10:02:35,889 - INFO - Stemmed word: KPMG -> kpmg
+2024-09-30 10:02:35,889 - INFO - Stemmed word: provide -> provid
+2024-09-30 10:02:35,889 - INFO - Stemmed word: ? -> ?
+2024-09-30 10:02:35,889 - INFO - Bag of words for sentence: ['What', 'services', 'does', 'KPMG', 'provide', '?'] -> [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 1. 0. 0. 0. 0.
+ 0. 0. 0. 1. 0. 0. 0.]
+2024-09-30 10:02:35,890 - INFO - Response: Deloitte offers consulting, audit, tax, and financial advisory services. for tag: services with probability: 0.9998132586479187
+2024-09-30 10:07:48,994 - INFO - User exited the chat.
+2024-09-30 10:07:59,565 - INFO - Intents loaded from D:/NLP chatbot/data/intents.json.
+2024-09-30 10:07:59,597 - INFO - NeuralNet initialized with input_size=79, hidden_size=8, num_classes=7
+2024-09-30 10:07:59,598 - INFO - Model loaded from D:/NLP chatbot/data.pth.
+2024-09-30 10:08:01,822 - INFO - TextProcessor initialized.
+2024-09-30 10:08:01,886 - INFO - Tokenized sentence: ['Hi']
+2024-09-30 10:08:01,886 - INFO - Stemmed word: Hi -> hi
+2024-09-30 10:08:01,886 - INFO - Bag of words for sentence: ['Hi'] -> [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0.]
+2024-09-30 10:08:01,889 - INFO - Response: Hi there! What questions do you have about the Big Four? for tag: greeting with probability: 0.9992
+2024-09-30 10:08:18,626 - INFO - TextProcessor initialized.
+2024-09-30 10:08:18,626 - INFO - Tokenized sentence: ['What', 'services', 'does', 'KPMG', 'provide', '?']
+2024-09-30 10:08:18,626 - INFO - Stemmed word: What -> what
+2024-09-30 10:08:18,626 - INFO - Stemmed word: services -> servic
+2024-09-30 10:08:18,626 - INFO - Stemmed word: does -> doe
+2024-09-30 10:08:18,626 - INFO - Stemmed word: KPMG -> kpmg
+2024-09-30 10:08:18,626 - INFO - Stemmed word: provide -> provid
+2024-09-30 10:08:18,626 - INFO - Stemmed word: ? -> ?
+2024-09-30 10:08:18,627 - INFO - Bag of words for sentence: ['What', 'services', 'does', 'KPMG', 'provide', '?'] -> [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 1. 0. 0. 0. 0.
+ 0. 0. 0. 1. 0. 0. 0.]
+2024-09-30 10:08:18,627 - INFO - Response: PwC specializes in assurance, tax, and advisory services. for tag: services with probability: 0.9998
+2024-09-30 10:10:27,738 - INFO - Intents loaded from D:/NLP chatbot/data/intents.json.
+2024-09-30 10:10:27,791 - INFO - NeuralNet initialized with input_size=79, hidden_size=8, num_classes=7
+2024-09-30 10:10:27,791 - INFO - Model loaded from D:/NLP chatbot/data.pth.
+2024-09-30 10:10:30,492 - INFO - TextProcessor initialized.
+2024-09-30 10:10:30,561 - INFO - Tokenized sentence: ['Hi']
+2024-09-30 10:10:30,562 - INFO - Stemmed word: Hi -> hi
+2024-09-30 10:10:30,562 - INFO - Bag of words for sentence: ['Hi'] -> [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0.]
+2024-09-30 10:10:30,564 - INFO - Response: Hi there! What questions do you have about the Big Four? for tag: greeting with probability: 0.9992
+2024-09-30 10:10:31,905 - INFO - TextProcessor initialized.
+2024-09-30 10:10:31,906 - INFO - Tokenized sentence: ['Tell', 'me', 'about', 'KPMG', "'s", 'services', '.']
+2024-09-30 10:10:31,906 - INFO - Stemmed word: Tell -> tell
+2024-09-30 10:10:31,906 - INFO - Stemmed word: me -> me
+2024-09-30 10:10:31,906 - INFO - Stemmed word: about -> about
+2024-09-30 10:10:31,906 - INFO - Stemmed word: KPMG -> kpmg
+2024-09-30 10:10:31,906 - INFO - Stemmed word: 's -> 's
+2024-09-30 10:10:31,906 - INFO - Stemmed word: services -> servic
+2024-09-30 10:10:31,906 - INFO - Stemmed word: . -> .
+2024-09-30 10:10:31,906 - INFO - Bag of words for sentence: ['Tell', 'me', 'about', 'KPMG', "'s", 'services', '.'] -> [1. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.
+ 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 1. 0.
+ 0. 0. 0. 0. 0. 0. 0.]
+2024-09-30 10:10:34,508 - INFO - TextProcessor initialized.
+2024-09-30 10:10:34,508 - INFO - Tokenized sentence: ['Tell', 'me', 'about', 'KPMG', "'s", 'services']
+2024-09-30 10:10:34,508 - INFO - Stemmed word: Tell -> tell
+2024-09-30 10:10:34,508 - INFO - Stemmed word: me -> me
+2024-09-30 10:10:34,508 - INFO - Stemmed word: about -> about
+2024-09-30 10:10:34,509 - INFO - Stemmed word: KPMG -> kpmg
+2024-09-30 10:10:34,509 - INFO - Stemmed word: 's -> 's
+2024-09-30 10:10:34,509 - INFO - Stemmed word: services -> servic
+2024-09-30 10:10:34,509 - INFO - Bag of words for sentence: ['Tell', 'me', 'about', 'KPMG', "'s", 'services'] -> [1. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.
+ 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 1. 0.
+ 0. 0. 0. 0. 0. 0. 0.]
+2024-09-30 10:10:42,628 - INFO - TextProcessor initialized.
+2024-09-30 10:10:42,628 - INFO - Tokenized sentence: ['KPMG']
+2024-09-30 10:10:42,628 - INFO - Stemmed word: KPMG -> kpmg
+2024-09-30 10:10:42,629 - INFO - Bag of words for sentence: ['KPMG'] -> [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0.]
+2024-09-30 10:10:46,110 - INFO - TextProcessor initialized.
+2024-09-30 10:10:46,111 - INFO - Tokenized sentence: ['PWC']
+2024-09-30 10:10:46,111 - INFO - Stemmed word: PWC -> pwc
+2024-09-30 10:10:46,111 - INFO - Bag of words for sentence: ['PWC'] -> [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0.]
+2024-09-30 10:10:47,799 - INFO - TextProcessor initialized.
+2024-09-30 10:10:47,799 - INFO - Tokenized sentence: ['pwc']
+2024-09-30 10:10:47,799 - INFO - Stemmed word: pwc -> pwc
+2024-09-30 10:10:47,800 - INFO - Bag of words for sentence: ['pwc'] -> [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0.]
+2024-09-30 10:10:50,626 - INFO - TextProcessor initialized.
+2024-09-30 10:10:50,627 - INFO - Tokenized sentence: ['hello']
+2024-09-30 10:10:50,627 - INFO - Stemmed word: hello -> hello
+2024-09-30 10:10:50,627 - INFO - Bag of words for sentence: ['hello'] -> [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0.]
+2024-09-30 10:10:50,627 - INFO - Response: Hi there! What questions do you have about the Big Four? for tag: greeting with probability: 0.9992
+2024-09-30 10:10:54,507 - INFO - TextProcessor initialized.
+2024-09-30 10:10:54,507 - INFO - Tokenized sentence: ['KPMG']
+2024-09-30 10:10:54,507 - INFO - Stemmed word: KPMG -> kpmg
+2024-09-30 10:10:54,508 - INFO - Bag of words for sentence: ['KPMG'] -> [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0.]
+2024-09-30 10:11:01,753 - INFO - TextProcessor initialized.
+2024-09-30 10:11:01,753 - INFO - Tokenized sentence: ['What', 'services', 'do', 'the', 'Big', 'Four', 'offer', '?']
+2024-09-30 10:11:01,753 - INFO - Stemmed word: What -> what
+2024-09-30 10:11:01,753 - INFO - Stemmed word: services -> servic
+2024-09-30 10:11:01,753 - INFO - Stemmed word: do -> do
+2024-09-30 10:11:01,753 - INFO - Stemmed word: the -> the
+2024-09-30 10:11:01,753 - INFO - Stemmed word: Big -> big
+2024-09-30 10:11:01,753 - INFO - Stemmed word: Four -> four
+2024-09-30 10:11:01,753 - INFO - Stemmed word: offer -> offer
+2024-09-30 10:11:01,753 - INFO - Stemmed word: ? -> ?
+2024-09-30 10:11:01,754 - INFO - Bag of words for sentence: ['What', 'services', 'do', 'the', 'Big', 'Four', 'offer', '?'] -> [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.
+ 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 1.
+ 0. 0. 0. 1. 0. 0. 0.]
+2024-09-30 10:11:01,754 - INFO - Response: EY focuses on assurance, tax, transaction, and advisory services. for tag: services with probability: 0.9999
+2024-09-30 10:11:37,647 - INFO - User exited the chat.
+2024-09-30 10:12:20,873 - INFO - Intents loaded from D:/NLP chatbot/data/intents.json.
+2024-09-30 10:12:21,108 - INFO - NeuralNet initialized with input_size=79, hidden_size=8, num_classes=7
+2024-09-30 10:12:21,136 - INFO - Model loaded from D:/NLP chatbot/data.pth.
+2024-09-30 10:12:25,894 - INFO - TextProcessor initialized.
+2024-09-30 10:12:25,995 - INFO - Tokenized sentence: ['Tell', 'me', 'about', 'KPMG', "'s", 'services', '.']
+2024-09-30 10:12:25,995 - INFO - Stemmed word: Tell -> tell
+2024-09-30 10:12:25,995 - INFO - Stemmed word: me -> me
+2024-09-30 10:12:25,995 - INFO - Stemmed word: about -> about
+2024-09-30 10:12:25,995 - INFO - Stemmed word: KPMG -> kpmg
+2024-09-30 10:12:25,995 - INFO - Stemmed word: 's -> 's
+2024-09-30 10:12:25,995 - INFO - Stemmed word: services -> servic
+2024-09-30 10:12:25,995 - INFO - Stemmed word: . -> .
+2024-09-30 10:12:25,996 - INFO - Bag of words for sentence: ['Tell', 'me', 'about', 'KPMG', "'s", 'services', '.'] -> [1. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.
+ 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 1. 0.
+ 0. 0. 0. 0. 0. 0. 0.]
+2024-09-30 10:12:26,598 - INFO - Response: PwC specializes in assurance, tax, and advisory services. for tag: services with probability: 0.9996
+2024-09-30 10:14:55,055 - INFO - User exited the chat.
+2024-09-30 10:15:03,862 - INFO - Intents loaded from D:/NLP chatbot/data/intents.json.
+2024-09-30 10:15:03,887 - INFO - NeuralNet initialized with input_size=79, hidden_size=8, num_classes=7
+2024-09-30 10:15:03,888 - INFO - Model loaded from D:/NLP chatbot/data.pth.
+2024-09-30 10:15:07,237 - INFO - TextProcessor initialized.
+2024-09-30 10:15:07,301 - INFO - Tokenized sentence: ['Hi']
+2024-09-30 10:15:07,301 - INFO - Stemmed word: Hi -> hi
+2024-09-30 10:15:07,302 - INFO - Bag of words for sentence: ['Hi'] -> [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0.]
+2024-09-30 10:15:07,484 - ERROR - An error occurred: expected np.ndarray (got Tensor)
+2024-09-30 10:16:07,711 - INFO - User exited the chat.
+2024-09-30 10:16:14,222 - INFO - Intents loaded from D:/NLP chatbot/data/intents.json.
+2024-09-30 10:16:14,225 - INFO - NeuralNet initialized with input_size=79, hidden_size=8, num_classes=7
+2024-09-30 10:16:14,226 - INFO - Model loaded from D:/NLP chatbot/data.pth.
+2024-09-30 10:16:16,032 - INFO - TextProcessor initialized.
+2024-09-30 10:16:16,095 - INFO - Tokenized sentence: ['Hi']
+2024-09-30 10:16:16,095 - INFO - Stemmed word: Hi -> hi
+2024-09-30 10:16:16,095 - INFO - Bag of words for sentence: ['Hi'] -> [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0.]
+2024-09-30 10:16:16,292 - ERROR - An error occurred: shape '[1, 1]' is invalid for input of size 79
+2024-09-30 10:17:57,762 - INFO - User exited the chat.
+2024-09-30 10:18:06,433 - INFO - Intents loaded from D:/NLP chatbot/data/intents.json.
+2024-09-30 10:18:06,459 - INFO - NeuralNet initialized with input_size=79, hidden_size=8, num_classes=7
+2024-09-30 10:18:06,460 - INFO - Model loaded from D:/NLP chatbot/data.pth.
+2024-09-30 10:18:08,568 - INFO - TextProcessor initialized.
+2024-09-30 10:18:08,634 - INFO - Tokenized sentence: ['Hi']
+2024-09-30 10:18:08,635 - INFO - Stemmed word: Hi -> hi
+2024-09-30 10:18:08,635 - INFO - Bag of words for sentence: ['Hi'] -> [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0.]
+2024-09-30 10:18:08,636 - ERROR - An error occurred: shape '[1, 1]' is invalid for input of size 79
+2024-09-30 10:18:59,950 - INFO - User exited the chat.
+2024-09-30 10:19:10,235 - INFO - Intents loaded from D:/NLP chatbot/data/intents.json.
+2024-09-30 10:19:10,261 - INFO - NeuralNet initialized with input_size=79, hidden_size=8, num_classes=7
+2024-09-30 10:19:10,262 - INFO - Model loaded from D:/NLP chatbot/data.pth.
+2024-09-30 10:19:11,762 - INFO - TextProcessor initialized.
+2024-09-30 10:19:11,828 - INFO - Tokenized sentence: ['Hi']
+2024-09-30 10:19:11,828 - INFO - Stemmed word: Hi -> hi
+2024-09-30 10:19:11,829 - INFO - Bag of words for sentence: ['Hi'] -> [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0.]
+2024-09-30 10:19:11,830 - ERROR - An error occurred: shape '[1, 1]' is invalid for input of size 79
+2024-09-30 10:20:32,299 - INFO - User exited the chat.
+2024-09-30 10:20:38,755 - INFO - Intents loaded from D:/NLP chatbot/data/intents.json.
+2024-09-30 10:20:38,759 - INFO - NeuralNet initialized with input_size=79, hidden_size=8, num_classes=7
+2024-09-30 10:20:38,760 - INFO - Model loaded from D:/NLP chatbot/data.pth.
+2024-09-30 10:20:40,217 - INFO - TextProcessor initialized.
+2024-09-30 10:20:40,279 - INFO - Tokenized sentence: ['Hi']
+2024-09-30 10:20:40,279 - INFO - Stemmed word: Hi -> hi
+2024-09-30 10:20:40,280 - INFO - Bag of words for sentence: ['Hi'] -> [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0.]
+2024-09-30 10:20:40,281 - ERROR - An error occurred: shape '[1, 1]' is invalid for input of size 79
+2024-09-30 10:26:40,146 - INFO - User exited the chat.
+2024-09-30 10:26:49,904 - INFO - Intents loaded from D:/NLP chatbot/data/intents.json.
+2024-09-30 10:26:49,929 - INFO - NeuralNet initialized with input_size=79, hidden_size=8, num_classes=7
+2024-09-30 10:26:49,930 - INFO - Model loaded from D:/NLP chatbot/data.pth.
+2024-09-30 10:26:51,667 - INFO - TextProcessor initialized.
+2024-09-30 10:26:51,733 - INFO - Tokenized sentence: ['Hi']
+2024-09-30 10:26:51,733 - INFO - Stemmed word: Hi -> hi
+2024-09-30 10:26:51,733 - INFO - Bag of words for sentence: ['Hi'] -> [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0.]
+2024-09-30 10:26:52,457 - INFO - Response: Hi there! What questions do you have about the Big Four? for tag: greeting with probability: 0.9994524121284485
+2024-09-30 10:27:03,765 - INFO - TextProcessor initialized.
+2024-09-30 10:27:03,765 - INFO - Tokenized sentence: ['What', 'services', 'does', 'KPMG', 'provide', '?']
+2024-09-30 10:27:03,765 - INFO - Stemmed word: What -> what
+2024-09-30 10:27:03,765 - INFO - Stemmed word: services -> servic
+2024-09-30 10:27:03,765 - INFO - Stemmed word: does -> doe
+2024-09-30 10:27:03,765 - INFO - Stemmed word: KPMG -> kpmg
+2024-09-30 10:27:03,765 - INFO - Stemmed word: provide -> provid
+2024-09-30 10:27:03,765 - INFO - Stemmed word: ? -> ?
+2024-09-30 10:27:03,799 - INFO - Bag of words for sentence: ['What', 'services', 'does', 'KPMG', 'provide', '?'] -> [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 1. 0. 0. 0. 0.
+ 0. 0. 0. 1. 0. 0. 0.]
+2024-09-30 10:27:03,822 - INFO - Response: KPMG provides audit, tax, and advisory services, along with consulting and risk management. for tag: services with probability: 0.9999074935913086
+2024-09-30 10:27:11,769 - INFO - User exited the chat.
